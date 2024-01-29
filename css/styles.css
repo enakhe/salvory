@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Landing Section */
+.landing-header {
+    padding: 30px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #fff
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-header .icons i {
+    margin: 5px;
+    color: grey;
+    font-size: 18px;
+}
+
+#close-icon {
+    opacity: 0;
+}
+
+.landing-image {
+    background-image: url(../img/main-home-slide2n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-menu-dropdown {
+    height: 0;
+    opacity: 0;
+}
+
+#side-menu-dropdown ul {
+    list-style: none;
+}
+
+#side-menu-dropdown li {
+    margin: 5px 0;
+    padding: 10px 0;
+    border-bottom: 0.1px solid rgb(211, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#side-menu-dropdown li:last-child {
+    border: none;
+}
+
+#side-menu-dropdown a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+#side-menu-dropdown i {
+    color: gray;
+}
+
+.landing-writeup {
+    text-align: center;
+    color: #fff;
+}
+
+.landing-writeup .landing-paragraph {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+.landing-writeup .landing-heading {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.landing-writeup .writeup {
+    font-size: 11px;
+}
+
+.landing-writeup .landing-button {
+    margin: 10px 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+
+/* Our Story */
+.our-story {
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.our-story .our-story-writeup {
+    text-align: center;
+}
+
+.our-story .our-story-writeup .paragraph {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.our-story .our-story-writeup h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 7px 0;
+}
+
+.our-story .our-story-writeup p:last-child {
+    font-size: 13px;
+}
+
+.our-story .our-story-images {
+    margin: 50px 0;
+}
+
+.our-story .our-story-images img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.our-story .our-story-images img:last-child {
+    margin-top: 20px;
+}
+
+.our-story .our-story-footer p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+/* Ingredient */
+.ingredient {
+    background-color: #ebebeb;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.ingredient .ingredient-writeup .ingredient-paragraph {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.ingredient .ingredient-writeup h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 7px 0;
+}
+
+.ingredient .ingredient-writeup p:last-child {
+    font-size: 13px;
+}
+
+.ingredient .ingredient-writeup .ingredient-button {
+    margin: 10px 0;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+.ingredient .ingredient-image {
+    margin: 20px 0;
+}
+
+.ingredient .ingredient-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Carousel */
+.carousel {
+    background-image: url(../img/home1-main-parallax-1.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.carousel .carousel-item {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.carousel .carousel-item.one {
+    opacity: 0;
+}
+
+.carousel .carousel-item.two {
+    opacity: 0;
+}
+
+.carousel .carousel-item .carousel-para {
+    color: white;
+    line-height: 30px;
+}
+
+.carousel .carousel-item .carousel-user {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
